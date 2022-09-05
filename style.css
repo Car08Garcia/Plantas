@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F7F8F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ccdb95, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ccdb95, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family:serif;
+}
+
+nav {
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+}
+
+.menu-div {
+    margin-left: 500px;  
+}
+
+.ico{
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.menu-li {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 60px;
+    font-size: 23px;
+}
+
+.menu-li:hover {
+    text-decoration-line:underline;
+    color: #ccdb95;
+}
+
+section {
+    background-image: url('flores.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+p {
+   font-weight: bold;
+   font-size: 60px;
+   padding: 100px;
+   box-sizing: border-box;
+   
+}
+
+.menu-planta {
+    padding: 60px 100px 0px 100px;
+    box-sizing: border-box;
+}
+
+
+.planta {
+    display: inline-block;
+    margin: 20px;
+}
+
+article {
+    text-align: center;
+}
+
+.plan {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.footer-redes {
+    text-align: center;
+}
+.redes {
+    display: inline-block;
+}
+
+.redes-ico {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 23px;
+}
